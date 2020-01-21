@@ -1,0 +1,7 @@
+<launch>
+    <node name="UAV_model_dnn_main" pkg="uav_model" type="UAV_model_dnn_main" output="screen" />
+    <node name="dnn" pkg="uav_model" type="dnn_normalized.py" output="screen" />
+
+    <node name="trajectory" pkg="trajectories" type="trajectory" output="screen" />
+    <node name="rqt_reconfigure" pkg="rqt_reconfigure" type="rqt_reconfigure" />
+</launch>
