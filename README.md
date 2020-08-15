@@ -2,8 +2,8 @@
 ROS package to simulate quadrotor and tiltrotor tricopter dynamics via both, the mathematical equations-based model and a DNN-based model. The package also incorporates a position tracking Nonlinear model predictive controller.
 
 **Usage:**  
-Launch 'UAV_model_main.launch' to utilize the mathematical equations-based model.  
-Launch 'UAV_model_dnn_main.launch' to utilize the DNN-based model.
+Launch "UAV_model_main.launch" to utilize the mathematical equations-based model.  
+Launch "UAV_model_dnn_main.launch" to utilize the DNN-based model.
 
 Moreover, the following package can be used to command the reference trajectory:\
 [trajectories](https://github.com/mohit004/trajectories): A ROS package to generate reference trajectories.
