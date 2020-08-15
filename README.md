@@ -5,7 +5,11 @@ ROS package to simulate quadrotor and tiltrotor tricopter dynamics via both, the
 Launch 'UAV_model_main.launch' to utilize the mathematical equations-based model.  
 Launch 'UAV_model_dnn_main.launch' to utilize the DNN-based model.
 
-Please don't forget to consider citing the following refences if you use these codes in your work.\
+Moreover, the following package can be used to command the reference trajectory:\
+[trajectories](https://github.com/mohit004/trajectories): A ROS package to generate reference trajectories.
+
+Please don't forget to consider citing the following refences if you use these codes in your work.
+
 **Plain Text:**
 ```
 Mehndiratta M., Kayacan E., Patel S., Kayacan E., Chowdhary G. (2019) Learning-Based Fast Nonlinear Model Predictive Control for Custom-Made 3D Printed Ground and Aerial Robots. In: Raković S., Levine W. (eds) Handbook of Model Predictive Control. Control Engineering. Birkhäuser, Cham. https://doi.org/10.1007/978-3-319-77489-3_24
